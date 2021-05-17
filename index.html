@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CALCULATOR</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="main.js"></script>
+  
+      <div id="calculator">
+            <input id="disp" readonly value="" ondblclick=del() onclick=calc('.')>
+            <div id=dial>
+            <br />
+            <button class=btn onclick=calc('1')>1</button>
+           <button class=btn onclick=calc('2')>2</button> 
+            <button class=btn onclick=calc('3')>3</button>
+            <br />
+            <button class=btn onclick=calc('4')>4</button>
+           <button class=btn onclick=calc('5')>5</button> 
+            <button class=btn onclick=calc('6')>6</button>
+            <br />
+            <button class=btn onclick=calc('7')>7</button>
+           <button class=btn onclick=calc('8')>8</button> 
+            <button class=btn onclick=calc('9')>9</button>
+            <br />
+            <button class="btn c" onclick=clr('c')>c</button>
+           <button class=btn onclick=calc('0')>0</button> 
+            <button class="btn eq" onclick=mat()>=</button>
+            <br />
+            </div>
+            <div id=u>
+            <button class=ebt onclick=calc('+')>+</button>
+           <button class=ebt onclick=calc('-')>-</button> 
+            <button class=ebt onclick=calc('*')>×</button>
+            <button class=ebt onclick=calc('/')>÷</button>
+            <br /></div>
+        </div>
+    </body>
+</html>
+  
+  
+  
+  
+</body>
+</html>
